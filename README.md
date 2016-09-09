@@ -7,13 +7,16 @@ Jug is a small web development framework for R which relies heavily upon the ```
 
 Jug is not supposed to be either an especially performant nor an uber stable web framework. Other tools (and languages) might be more suited for that. It focuses on maximizing the ease with wich you can create web APIs for your R code. However, the flexibility of Jug means that, in theory, you could built an extensive web framework with it.
 
-See [http://bart6114.github.io/jug](http://bart6114.github.io/jug) for more info.
+See [http://bart6114.github.io/jug](http://bart6114.github.io/jug) for the development vignette version.
 
 
 ## Changes
 
 ### v0.1.3
 
-- Refactoring of param parsing
+- Refactor request header processing
+- Added CORS functionality
+- Possible to specify `method` for `use` middleware
+- Refactoring of request param parsing
 - New error handling middleware (JSON response)
 - Additional / refined testing
